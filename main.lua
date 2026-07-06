@@ -32,10 +32,7 @@ local Toggles = {}
 local Options = {}
 local Tooltips = {}
 
-local BaseURL = "https://raw.githubusercontent.com/"
-	.. "Anonimusluxydev404/Luxy/refs/heads/main/"
-	.. "LibraryV5/Icons.lua"
-
+local BaseURL = "https://raw.githubusercontent.com/deividcomsono/Obsidian/refs/heads/main/"
 local CustomImageManager = {}
 function CustomImageManager.GetAsset(AssetName)
 	if AssetName == "TransparencyTexture" then
